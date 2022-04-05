@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+  
+  <div class="container-md">
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary bg-gradient">
+      <div class="container-fluid">
+        <a class="navbar-brand me-5" href="#">Restaurante Boa Comida</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="pacotes.html">Cardápios</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="hoteis.html">Reservas</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="passeios.html">Contato</a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Pesquisar">
+            <button class="btn btn-secondary" type="submit">Pesquisar</button>
+          </form>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container mt-1">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img1.png" class="d-block w-100" alt="Imagem 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Faça a sua reserva</h1>
+            <h5>Confraternizações e datas especiais.</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img2.jpg" class="d-block w-100" alt="Imagem 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Comidas diferenciadas</h1>
+            <h5>Apenas o melhor é servido ao cliente</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img3.jpg" class="d-block w-100" alt="Imagem 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h1>Cozinheiros especializados</h1>
+            <h5>A mais alta gastronomia em um só lugar</h5>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col text-center">
+        <div class="display-5">
+          Prato Principal
+        </div>
+        <p>Todos os pratos acompanham arroz, feijão e a sobremesa do dia</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center gap-5">
+
+      <div class="mb-4 col-4 card text-center shadow-lg" style="width: 18rem;">
+        <img src="card1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rodizio variado</h5>
+          <p class="card-text">Sit aliqua proident excepteur ex duis elit tempor est labore nostrud tempor ut magna
+            esse.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">A partir de R$ 90,00</li>
+          <li class="list-group-item">Tire fotos incríveis!</li>
+        </ul>
+        <div class="card-body">
+          <button class="btn btn-primary">Reserve Já</button>
+        </div>
+      </div>
+
+
+
+      <div class="mb-4 col-4 card text-center shadow-lg" style="width: 18rem;">
+        <img src="card2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Prato sortido</h5>
+          <p class="card-text">Culpa in adipisicing consectetur consectetur ut do dolore cillum elit culpa.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">A partir de R$ 190,00</li>
+          <li class="list-group-item">Visite lugares secretos!</li>
+        </ul>
+        <div class="card-body">
+          <button class="btn btn-primary">Reserve Já</button>
+        </div>
+      </div>
+
+
+
+      <div class="mb-4 col-4 card text-center shadow-lg" style="width: 18rem;">
+        <img src="card3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Linguiça de cavalo ao molho</h5>
+          <p class="card-text">Anim ad quis incididunt aliqua do qui labore nulla commodo consequat sunt aliquip.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">A partir de R$ 70,00</li>
+          <li class="list-group-item">Explore a natureza</li>
+        </ul>
+        <div class="card-body">
+          <button class="btn btn-primary">Reserve Já</button>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center gap-5">
+
+      <div class="row">
+        <div class="col text-center">
+          <div class="display-5">
+            Acompanhamentos
+          </div>
+          <p>Porções para uma pessoa</p>
+        </div>
+      </div>
+
+      <div class="col-4 card text-center shadow-lg" style="width: 18rem;">
+        <img src="card4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Prato sortido com molho especial</h5>
+          <p class="card-text">Esse do amet deserunt excepteur nostrud dolor proident consequat consectetur et.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">A partir de R$ 40,00</li>
+          <li class="list-group-item">Trilhas para todos os gostos!</li>
+        </ul>
+        <div class="card-body">
+          <button class="btn btn-primary">Reserve Já</button>
+        </div>
+      </div>
+
+      <div class="col-4 card text-center shadow-lg" style="width: 18rem;">
+        <img src="card5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Camarão salgado</h5>
+          <p class="card-text">Esse do amet deserunt excepteur nostrud dolor proident consequat consectetur et.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">A partir de R$ 40,00</li>
+          <li class="list-group-item">Trilhas para todos os gostos!</li>
+        </ul>
+        <div class="card-body">
+          <button class="btn btn-primary">Reserve Já</button>
+        </div>
+      </div>
+
+      <div class="col-4 card text-center shadow-lg" style="width: 18rem;">
+        <img src="card6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Bife ao ponto</h5>
+          <p class="card-text">Esse do amet deserunt excepteur nostrud dolor proident consequat consectetur et.</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">A partir de R$ 40,00</li>
+          <li class="list-group-item">Trilhas para todos os gostos!</li>
+        </ul>
+        <div class="card-body">
+          <button class="btn btn-primary">Reserve Já</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col text-center">
+        <div class="display-5">
+          Peça uma cotação
+        </div>
+        <p>Veja como é fácil realizar os seus sonhos!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mb-5">
+
+    <div class="col-10 offset-1">
+      <form>
+
+        <div class="form-group">
+          <label for="inputNome">Nome Completo:</label>
+          <input type="text" class="form-control" id="inputNome" placeholder="Nome:">
+        </div>
+
+        <div class="row">
+
+          <div class="col-12 col-lg-6">
+            <div class="form-group mt-3">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <div class="form-group mt-3">
+              <label for="inputEmail">Telefone</label>
+              <input type="text" id="telefone" class="form-control" id="inputTelefone" placeholder="Telefone">
+            </div>
+          </div>
+        </div>
+
+        <div class="d-grid gap-2 mx-auto mt-3 col-6">
+          <button class="btn btn-primary" type="button">Enviar</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
