@@ -1,0 +1,114 @@
+.img-container{
+    width: 1114px;
+    height: 290px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4px;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    width: 30%;
+}
+
+.carousel-caption, .d-none, .d-md-block{
+    background-color: rgba(102, 94, 94, 0.5); 
+    color: white;
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.carousel-caption, .d-none, .d-md-block h5{
+    font-size: 35px;
+}
+
+.carousel-caption, .d-none, .d-md-block p{
+    font-size: 19px;
+}
+
+#title{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.container h2{
+    font-size: 40px;
+}
+
+.card-img-top{
+    width: 220px; 
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.um,
+.dois{
+    margin-right: 40px;   
+}
+
+.quantity{
+    width: 13px;
+    height: 13px;
+    border: none;
+}
+
+.cart-qty-minus,
+.cart-qty-plus{
+    border: 0.1px solid rgb(211, 206, 206);
+    background-color: #ffffff;
+}
+
+.card-body{
+    padding-bottom: 20px;
+}
+
+.card {
+    border: none;
+    box-shadow: 3px 10px 15px 5px rgba(0,0,0,0.05);
+}
+
+
+.mb-5{
+    text-align: left;
+    margin-top: 40px;
+    border: none;
+    box-shadow: 3px 10px 15px 5px rgba(0,0,0,0.05);
+    width: 950px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+#dados h2{
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+.col-8{
+    margin-left: auto;
+    margin-right: auto;
+    width: 89%;
+}
+#calc-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+
+
